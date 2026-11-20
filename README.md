@@ -57,7 +57,7 @@ Edit the Secrets.java file to suit your environment. You need to change the six 
 
 `DB_PASSWORD` and `PASSWORD` are secrets that should never be hardcoded in a source file. Use a proper secrets manager to handle these in a production system. The only secrets this software handles properly are the WebAuthn private keys. But it makes testing easier.
 
-SALT can be hardcoded in a source file, as it is only usable in connection with a pin code entered by the user, but you should create your own salt and keep it confidential.
+`SALT` can be hardcoded in a source file, as it is only usable in connection with a pin code entered by the user, but you should create your own salt and keep it confidential.
 
 ---
 
